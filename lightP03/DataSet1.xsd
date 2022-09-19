@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTableReport" msprop:Generator_TableClassName="DataTableReportDataTable" msprop:Generator_TableVarName="tableDataTableReport" msprop:Generator_TablePropName="DataTableReport" msprop:Generator_RowDeletingName="DataTableReportRowDeleting" msprop:Generator_RowChangingName="DataTableReportRowChanging" msprop:Generator_RowEvHandlerName="DataTableReportRowChangeEventHandler" msprop:Generator_RowDeletedName="DataTableReportRowDeleted" msprop:Generator_UserTableName="DataTableReport" msprop:Generator_RowChangedName="DataTableReportRowChanged" msprop:Generator_RowEvArgName="DataTableReportRowChangeEvent" msprop:Generator_RowClassName="DataTableReportRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PlantName" msprop:Generator_ColumnVarNameInTable="columnPlantName" msprop:Generator_ColumnPropNameInRow="PlantName" msprop:Generator_ColumnPropNameInTable="PlantNameColumn" msprop:Generator_UserColumnName="PlantName" type="xs:string" minOccurs="0" />
+              <xs:element name="CleanPeriod" msprop:Generator_ColumnVarNameInTable="columnCleanPeriod" msprop:Generator_ColumnPropNameInRow="CleanPeriod" msprop:Generator_ColumnPropNameInTable="CleanPeriodColumn" msprop:Generator_UserColumnName="CleanPeriod" type="xs:string" minOccurs="0" />
+              <xs:element name="CleanTimeR" msprop:Generator_ColumnVarNameInTable="columnCleanTimeR" msprop:Generator_ColumnPropNameInRow="CleanTimeR" msprop:Generator_ColumnPropNameInTable="CleanTimeRColumn" msprop:Generator_UserColumnName="CleanTimeR" type="xs:string" minOccurs="0" />
+              <xs:element name="CleanArea" msprop:Generator_ColumnVarNameInTable="columnCleanArea" msprop:Generator_ColumnPropNameInRow="CleanArea" msprop:Generator_ColumnPropNameInTable="CleanAreaColumn" msprop:Generator_UserColumnName="CleanArea" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalCleanTime" msprop:Generator_ColumnVarNameInTable="columnTotalCleanTime" msprop:Generator_ColumnPropNameInRow="TotalCleanTime" msprop:Generator_ColumnPropNameInTable="TotalCleanTimeColumn" msprop:Generator_UserColumnName="TotalCleanTime" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalCleanArea" msprop:Generator_ColumnVarNameInTable="columnTotalCleanArea" msprop:Generator_ColumnPropNameInRow="TotalCleanArea" msprop:Generator_ColumnPropNameInTable="TotalCleanAreaColumn" msprop:Generator_UserColumnName="TotalCleanArea" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
