@@ -9,7 +9,7 @@
 ![발전소선택](https://user-images.githubusercontent.com/59854960/191016517-8eea9714-e691-457c-ae99-a814b4f6d0ac.PNG)
 - 콤보 박스에서 발전소를 선택하면, 해당 발전소에 맞는 데이터 정보를 불러온다.
 3. 보고서 출력
-![보고서출력](https://user-images.githubusercontent.com/59854960/191016520-ee2c4468-923b-4e8d-8a3e-e7c99
+![보고서출력](https://user-images.githubusercontent.com/59854960/191016802-dffd6b92-aacb-43cf-81a4-a62b9a2b6937.PNG)
 - 보고서 버튼을 누르면 보고서가 출력된다.
 4. 데이터베이스
 ![데이터베이스](https://user-images.githubusercontent.com/59854960/191016514-fb2d320b-c2e8-46d4-a629-84fcd0adcb80.PNG)
